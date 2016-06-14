@@ -1,4 +1,4 @@
-# METEOR-MEAN-SEO
+# METEOR-SEO
 'meteor-mean-seo' package wrapped for Meteor 1.3.x 
 
 ## Longer Version
