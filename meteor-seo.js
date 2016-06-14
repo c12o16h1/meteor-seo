@@ -9,6 +9,8 @@ const MEANSEOWrapper = MeanSeo({
 //WebApp.connectHandlers.use('*', function(req, res, next){
 //    MEANSEOWrapper(req, res, next);
 //});
-WebApp.connectHandlers.use(MEANSEOWrapper);
+if(Meteor.isServer){
+    WebApp.connectHandlers.use(MEANSEOWrapper);
+}
 
 export const name = 'MeteorSEO';
