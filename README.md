@@ -8,7 +8,7 @@ When a crawler requests the page using the [**\_escaped\_fragment\_**](https://d
 ## Quick Install
 First you'll need to install the MEAN-SEO module using npm:
 
-	meteor add meteor-mean-seo
+	meteor add c12o16h1:meteor-seo
 
 
 You should let npm publish the crawler know you're serving an AJAX application by adding the following to the HEAD tag of your page: Ugly URLs like www.domain.com/#!/whaewer is not supported
