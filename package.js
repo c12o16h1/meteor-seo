@@ -3,7 +3,7 @@ Npm.depends({
 });
 Package.describe({
   name: 'c12o16h1:meteor-seo',
-  version: '0.0.4',
+  version: '0.0.5',
   // Brief, one-line summary of the package.
   summary: 'SEO for JS apps on over Meteor (Meteor, Angular, React, whatever)',
   // URL to the Git repository containing the source code for this package.
